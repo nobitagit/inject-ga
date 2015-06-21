@@ -1,7 +1,7 @@
 {
   "name": "html-inject-ga",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "Inject Google Analytics tracking code in HTML pages.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,9 +9,13 @@
   "bin": {
     "inject-ga": "cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nobitagit/html-inject-ga.git"
+  },
   "keywords": [],
   "author": "Nobita",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^0.19.0",
     "isogram": "^0.5.0",
