@@ -13,7 +13,20 @@
     "type": "git",
     "url": "git@github.com:nobitagit/html-inject-ga.git"
   },
-  "keywords": [],
+  "keywords": [
+    "snippet",
+    "script",
+    "inject",
+    "code",
+    "tracking code",
+    "analytics",
+    "google analytics",
+    "universal analytics",
+    "browser",
+    "client-side",
+    "cli",
+    "command-line"
+  ],
   "author": "Nobita",
   "license": "MIT",
   "dependencies": {
