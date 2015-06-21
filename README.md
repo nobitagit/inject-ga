@@ -1,0 +1,1 @@
+Inject Google Analytics tracking code in HTML pages.
