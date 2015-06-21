@@ -10,7 +10,7 @@ var p = InjectGa.prototype;
 
 p.insert = function (code) {
   var snippet = this.generateSnippet(code);
-  this.$('body').append('<script>\n' + snippet + '\n</script>\n');
+  this.$('body').append('\n<script>\n' + snippet + '\n</script>\n');
   return this.$.html();
 };
 

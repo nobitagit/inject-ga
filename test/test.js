@@ -3,7 +3,7 @@ var InjectGa = require('../index')
   ;
 
 var analayticsId = 'UA-64422297-1'
-  , snippet = '<script>\n!function(G,o,O,g,l,e){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){\n(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;l=o.createElement(g);\ne=o.getElementsByTagName(g)[0];l.src=\'//www.google-analytics.com/analytics.js\';\ne.parentNode.insertBefore(l,e)}(window,document,\'ga\',\'script\');\n\nga(\'create\', \'UA-64422297-1\', \'auto\');\nga(\'send\', \'pageview\');\n</script>\n'
+  , snippet = '\n<script>\n!function(G,o,O,g,l,e){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){\n(G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;l=o.createElement(g);\ne=o.getElementsByTagName(g)[0];l.src=\'//www.google-analytics.com/analytics.js\';\ne.parentNode.insertBefore(l,e)}(window,document,\'ga\',\'script\');\n\nga(\'create\', \'UA-64422297-1\', \'auto\');\nga(\'send\', \'pageview\');\n</script>\n'
   ;
 
 describe('insert', function () {
