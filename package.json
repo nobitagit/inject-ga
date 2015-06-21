@@ -4,7 +4,7 @@
   "description": "Inject Google Analytics tracking code in HTML pages.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "bin": {
     "inject-ga": "cli.js"
@@ -33,5 +33,9 @@
     "cheerio": "^0.19.0",
     "isogram": "^0.5.0",
     "yargs": "^3.12.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
   }
 }
