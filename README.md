@@ -1,14 +1,30 @@
 Inject Google Analytics tracking code in HTML pages.
 
+Installation:
+
+```sh
+npm install inject-ga
+```
+
 Usage:
 
 ```sh
 inject-ga input.html -c 'UA-66481277-1' -o output.html
 ```
-
-Result:
+Input:
 ```html
-  <!-- the rest of your html file -->
+</html>
+<body>
+  <span>Football</span>
+</body>
+</html>
+```
+
+Output:
+```html
+</html>
+<body>
+  <span>Football</span>
   <script>
   !function(G,o,O,g,l,e){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){
   (G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;l=o.createElement(g);

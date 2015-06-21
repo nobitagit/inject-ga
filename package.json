@@ -1,5 +1,5 @@
 {
-  "name": "html-inject-ga",
+  "name": "inject-ga",
   "version": "0.1.0",
   "description": "Inject Google Analytics tracking code in HTML pages.",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nobitagit/html-inject-ga.git"
+    "url": "git@github.com:nobitagit/inject-ga.git"
   },
   "keywords": [
     "snippet",
