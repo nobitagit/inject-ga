@@ -7,19 +7,20 @@ var InjectGa = require('./index')
 var fileName = args._[0];
 
 if(!fileName){
-  throw new Error('Please specify a target HTML file');
+  throw Error('Please specify a target HTML file');
 }
 
 if(!args.c){
-  throw new Error('Please specify your tracking code');
+  throw Error('Please specify your tracking code');
 }
 
 var file = fs.readFileSync(fileName)
-  , code = args.c || args.code
+  , code = args.c
   , injectGa = new InjectGa(file)
+  , toHead = args.h
   ;
 
-var html = injectGa.insert(args.c)
+var html = injectGa.insert(args.c, toHead)
   , outputName = args.o || args.output
   ;
 

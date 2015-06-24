@@ -9,22 +9,25 @@ npm install inject-ga
 Usage:
 
 ```sh
-inject-ga input.html -c 'UA-66481277-1' -o output.html
+inject-ga input.html -c 'UA-66481277-1' -o output.html [-h]
 ```
+
+Pass the `-h` flag if you want the code to be injected inside the `<head>` tag.
+
 Input:
 ```html
-</html>
+<html>
 <body>
-  <span>Football</span>
+  <i>am</i>
 </body>
 </html>
 ```
 
 Output:
 ```html
-</html>
+<html>
 <body>
-  <span>Football</span>
+  <i>am</i>
   <script>
   !function(G,o,O,g,l,e){G.GoogleAnalyticsObject=O;G[O]||(G[O]=function(){
   (G[O].q=G[O].q||[]).push(arguments)});G[O].l=+new Date;l=o.createElement(g);
