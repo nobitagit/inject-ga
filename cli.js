@@ -16,13 +16,11 @@ if(!args.c){
 
 var file = fs.readFileSync(fileName)
   , code = args.c
-  , injectGa = new InjectGa(file)
   , toHead = args.h
-  ;
+  , injectGa = new InjectGa(file)
 
 var html = injectGa.insert(args.c, toHead)
   , outputName = args.o || args.output
-  ;
 
 if(outputName){
   fs.writeFileSync(outputName, html);

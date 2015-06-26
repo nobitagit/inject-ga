@@ -9,10 +9,10 @@ npm install inject-ga
 Usage:
 
 ```sh
-inject-ga input.html -c 'UA-66481277-1' -o output.html [-h]
+inject-ga input.html -c 'UA-66481277-1' [-o output.html] [-h]
 ```
-
 Pass the `-h` flag if you want the code to be injected inside the `<head>` tag.
+If no output target is passed it will default to stdout.
 
 Input:
 ```html

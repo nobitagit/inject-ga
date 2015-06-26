@@ -1,10 +1,11 @@
 {
   "name": "inject-ga",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Inject Google Analytics tracking code in HTML pages.",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test.js"
+    "test": "mocha test/test.js",
+    "prepublish": "npm run test"
   },
   "bin": {
     "inject-ga": "cli.js"
