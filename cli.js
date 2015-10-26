@@ -19,7 +19,7 @@ var file = fs.readFileSync(fileName)
   , toHead = args.h
   , injectGa = new InjectGa(file)
 
-var html = injectGa.insert(args.c, toHead)
+var html = injectGa.insert(code, toHead)
   , outputName = args.o || args.output
 
 if(outputName){

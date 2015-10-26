@@ -40,3 +40,8 @@ Output:
 </body>
 </html>
 ```
+
+Tests:
+```sh
+npm test
+```
